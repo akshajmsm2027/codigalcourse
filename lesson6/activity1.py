@@ -1,0 +1,18 @@
+lst=["apple" ,"guava","banana","papaya"]
+print(len(lst))
+print(lst[0])
+print(lst[-1])
+lst.append("kiwi")
+print(lst)
+lst.remove("guava")
+print(lst)
+lst.sort()
+print(lst)
+lst.pop(1)
+print(lst)
+lst.reverse()
+print(lst)
+lst=lst[:4]
+print(lst)
+lst.clear()
+print(lst)
