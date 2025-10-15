@@ -1,5 +1,5 @@
-x=4
-y=5
+x=8
+y=7
 print("before swapping ",x,y)
 x,y=y,x
 print("after swapping ",x,y)
