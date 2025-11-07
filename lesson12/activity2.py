@@ -1,0 +1,12 @@
+file_read = open ('Codingal.txt','r')
+print("File in Read Mode -")
+print(file_read.read())
+file_read.close()
+file_write = open('Codingal.txt','w')
+file_write.write("File in write mode . . . . ") # type: ignore
+file_write.write("Hi! I am Abid, and i love programming")
+file_write.close()
+file_append = open('Codingal.txt', 'a')
+file_append.write("\n File in append mode . . . . ")
+file_append.write("Ok Bye!")
+file_append.close()

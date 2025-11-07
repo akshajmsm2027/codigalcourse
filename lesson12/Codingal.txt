@@ -1,0 +1,2 @@
+File in write mode . . . . Hi! I am Abid, and i love programming
+ File in append mode . . . . Ok Bye!
